@@ -22,7 +22,7 @@ from subredo.videoredoproject import VideoReDoProject
 
 @click.command()
 @click.argument("projects", type=Path, nargs=-1)
-@click.option("-o", "--original-language", type=str, default="en",
+@click.option("-l", "--original-language", type=str, default="en",
               help="Declare the Original Language for this Video's Subtitle flags.")
 @click.option("-c", "--cut-video", type=Path, default=None,
               help="Specify manually exported cut video from the VideoReDo project file to mux the Subtitles to."
