@@ -42,7 +42,7 @@ Usage: subredo [OPTIONS] [PROJECTS]...
               Subtitles are read from the source file of each project.
 
 Options:
-  -o, --original-language TEXT  Declare the Original Language for this Video's
+  -l, --original-language TEXT  Declare the Original Language for this Video's
                                 Subtitle flags.
   -c, --cut-video PATH          Specify manually exported cut video from the
                                 VideoReDo project file to mux the Subtitles
